@@ -1,0 +1,62 @@
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px 10px 10px 10px;
+    align-items: center;
+    gap:30px;
+    border: black solid 2px;
+    border-radius: 10px;
+    padding: 50px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:20px;
+    padding: 10px 10px 10px 10px;
+    border: black solid 2px;
+    border-radius: 10px;
+    margin: 10px 0px 10px 0px;
+}
+ main > h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+ }
+ main > .classe1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto 10px auto 10px;
+    padding:10px;
+}
+main > .classe2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto 10px auto 10px;
+    padding:10px;
+}
+main > .classe3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto 10px auto 10px;
+    padding:10px;
+ }
+ img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    border: 1px solid black;
+ }
+ .produto {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap:10px;
+ }
+ 

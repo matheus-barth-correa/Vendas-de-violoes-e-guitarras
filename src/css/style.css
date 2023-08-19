@@ -1,0 +1,31 @@
+@font-face {
+    font-family:"titulo-principal" ;
+    src: url();
+}
+@font-face {
+    font-family:"segundo-titulo-principal" ;
+    src: url();
+}
+@font-face {
+    font-family:"Menus-navegação" ;
+    src: url();
+}
+@font-face {
+    font-family:"Nome-instrumentos" ;
+    src: url();
+}
+:root {
+    /* Fontes nomeadas */
+    --titulo-1 : 'titulo-principal';
+    --titulo-2 : 'segundo´titulo-principal';
+    --navegacao : 'Menus-navegação';
+    --nomes: 'Nome-instrumentos';
+
+    /* Paleta de Cores */
+    --cor1:'';
+    --cor2:'';
+    --cor3:'';
+    --cor4:'';
+    --cor5:'';
+    --cor6:'';
+}
