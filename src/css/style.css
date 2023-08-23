@@ -1,31 +1,62 @@
 @font-face {
     font-family:"titulo-principal" ;
-    src: url();
+    src: url(/src/fonts/Inter-VariableFont_slnt\,wght.ttf);
+    
 }
 @font-face {
     font-family:"segundo-titulo-principal" ;
-    src: url();
+    src: url(/src/fonts/TulpenOne-Regular.ttf);
 }
 @font-face {
     font-family:"Menus-navegação" ;
-    src: url();
+    src: url(/src/fonts/RussoOne-Regular.ttf);
 }
 @font-face {
     font-family:"Nome-instrumentos" ;
-    src: url();
+    src: url(/src/fonts/AbrilFatface-Regular.ttf);
 }
 :root {
     /* Fontes nomeadas */
     --titulo-1 : 'titulo-principal';
-    --titulo-2 : 'segundo´titulo-principal';
+    --titulo-2 : 'segundo-titulo-principal';
     --navegacao : 'Menus-navegação';
     --nomes: 'Nome-instrumentos';
 
     /* Paleta de Cores */
-    --cor1:'';
-    --cor2:'';
-    --cor3:'';
-    --cor4:'';
-    --cor5:'';
-    --cor6:'';
+    --cor1:black;
+    --cor2:rgb(235, 235, 235);
+    --cor3: rgb(34, 33, 33);
+    --cor4: white;
+    --cor5:
+    --cor6:
+}
+
+.cabecalho > h1 {
+    font: normal normal 50px '--titulo-1';
+    text-shadow: 20px;  
+    color: var(--cor4) 
+}
+.cabecalho > p {
+    font: normal normal 20px arial;
+    color: var(--cor4);
+}
+main > h2 {
+    font: italic bolder 35px '--titulo-2';
+}
+.cabecalho {
+    background-color: var(--cor3);
+}
+body {
+    background-color: var(--cor2);
+}
+.produto > span {
+    font: italic normal 25px '--nomes';
+}
+nav > a {
+    font: italic bolder 28px 'navegacao';
+    text-decoration:none;
+    color:var(--cor1);
+}
+a:hover {
+    text-decoration: underline;
 }
