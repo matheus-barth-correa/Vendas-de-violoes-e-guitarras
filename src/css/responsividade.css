@@ -1,0 +1,21 @@
+@media (max-width:836px) {
+    .cabecalho > h1 {
+        font-size: 40px;
+    }
+    @media (max-width: 699px) {
+    .cabecalho > h1 {
+        font-size: 30px;
+    }
+    .cabecalho > p {
+        font-size: 20px;
+    }
+    @media (max-width: 559px) {
+    .cabecalho > h1 {
+        font-size: 20px;
+    }
+    .cabecalho > p {
+        font-size: 15px;
+    }
+}
+}
+}
