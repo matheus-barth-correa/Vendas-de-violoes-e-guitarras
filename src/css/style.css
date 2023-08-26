@@ -27,8 +27,7 @@
     --cor2:rgb(235, 235, 235);
     --cor3: rgb(34, 33, 33);
     --cor4: white;
-    --cor5:
-    --cor6:
+    --cor5:rgb(168, 163, 163);
 }
 
 .cabecalho > h1 {
@@ -59,4 +58,8 @@ nav > a {
 }
 a:hover {
     text-decoration: underline;
+}
+span, section {
+    font: normal bold 25px arial;
+    padding: 15px 0px 0px 15px;
 }
